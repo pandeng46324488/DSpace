@@ -1,0 +1,22 @@
+<view class="login-view">
+
+<view class="flexC">
+<button bindtap="addCount">增加</button>
+<button bindtap="reduceCount">减少</button>
+<label>{{count}}</label>
+</view>
+
+<view wx:for="{{array}}">{{item}}</view>
+
+<!--wxml-->
+<template name="staffName">
+  <view>
+    FirstName: {{firstName}}, LastName: {{lastName}}
+  </view>
+</template>
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>
+
+</view>

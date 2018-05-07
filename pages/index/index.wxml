@@ -1,0 +1,5 @@
+
+<view class="flexC">
+<button bin>点击</button>
+<label>{{count}}</label>
+</view>

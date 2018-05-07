@@ -1,0 +1,90 @@
+/* login.wxss */
+
+.login-view{
+  margin:0;
+  padding:0;  
+}
+
+/*logo*/
+.login-logo{
+  width:30%;  
+  display: block;
+  margin:auto;
+  margin-top: 10%;
+}
+
+/*表单容器*/
+.login-form-view{
+  margin-top:3%;
+  padding:1%;
+  display: block;
+}
+
+/*每一项输入*/
+.login-item-view{
+  border:1px solid #096;  
+  padding:0.2rem;  
+  width:85%;
+  margin:auto;
+  margin-top:0.5rem;
+}
+
+.login-input-text{
+  display:inline-block;
+  width:70%;
+  text-align: left;
+  vertical-align: middle;
+  padding:0.2rem 0;
+  margin:auto;
+  margin-left:2%;
+}
+/*输入提示文本*/
+.login-text{
+  display:inline-block;
+  border-right:1px solid #ccc;  
+  width:23%;  
+  text-align: right;  
+  color:#ccc;
+  vertical-align: middle;
+  padding:0.4rem 0;
+  padding-right: 3%;
+  font-size:0.8rem;
+}
+
+/*提交按钮*/
+.login-submit-btn{
+  margin-top:5%;
+  width:40%;
+  color:#fff;
+  background-color:#096;
+  border:1px solid #096;
+}
+
+.login-submit-btn-hover{
+  color:#096;
+  background-color:#fff;
+}
+
+/*其它*/
+.login-other{
+  margin-top:5%;
+  color:#ccc;
+  font-size:0.8rem; 
+  display: flex;
+}
+
+.login-other-item{
+  width:100%;
+}
+
+.login-vertical{
+  margin: 0 2%;
+}
+
+.login-register-text{
+  text-align: right;
+}
+
+.login-forget-text{
+  text-align: left;
+}

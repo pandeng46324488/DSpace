@@ -1,0 +1,39 @@
+{
+  "pages": [
+  "pages/login/login",
+    "pages/index/index",
+    "pages/space/space"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "登录",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/D-icon.png",
+        "selectedIconPath": "images/D-icon-hover.png"
+      },
+      {
+        "pagePath": "pages/space/space",
+        "iconPath": "images/S-icon.png",
+        "selectedIconPath": "images/S-icon-hover.png"
+      }
+    ],
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFIle": 60000
+    },
+    "color": "#ffc708",
+    "selectedColor": "#c48f1d",
+    "backgroundColor": "#2d2d2d",
+    "position": "bottom",
+    "borderSTyle": "white"
+  },
+  "debug": true
+}
